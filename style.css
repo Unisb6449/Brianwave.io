@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Montserrat;
+    background-color: #fff;
+}
+/* Navigation Styles Start */
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+.logo{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #161C2D;
+}
+
+.nav-link{
+    padding-top: 10px;
+}
+
+.nav-link ul{
+    list-style: none;
+}
+
+.nav-link ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-link ul li a{
+    text-decoration: none;
+    color: #161C2D;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.nav-link button{
+    padding: 10px 12px;
+    background-color: #473BF0;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menu-bar{
+    display: none;
+}
+
+/* Navigation Styles End */
+
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    #navbar{
+        padding: 1rem 1.5rem;
+        align-items: center;
+    }
+
+    .logo{
+        font-size: 0.8rem;
+    }
+
+    .nav-link{
+        display: none;
+    }
+
+    .menu-bar{
+        display: block;
+        padding-top: 10px;
+    }
+}
