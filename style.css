@@ -202,7 +202,7 @@ body {
 
 .slide1-img img{
     margin-right: -60px;
-    height: 50vh;
+    height: 52vh;
 }
 
 .slide1-txt{
@@ -223,6 +223,63 @@ body {
 
 /* Slide1 Styles End */
 
+/* Slide2 Styles Start */
+
+#slide2{
+    background-color: #F4F7FA;
+}
+
+#slide2 h2{
+    text-align: center;
+    padding-top: 2.5rem;
+    margin-bottom: 12px;
+}
+
+.slide2-p{
+    text-align: center;
+    color: #161C2D;
+    font-size: 0.9rem;
+    max-width: 500px;
+    margin: 0 auto 2.5rem auto;
+}
+
+.slide2-flex{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto 10rem;
+    gap: 0;
+}
+
+.slide2-card h3{
+    margin-bottom: 10px;
+}
+
+.slide2-card img{
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.slide2-card p{
+    color: #161C2D;
+    font-size: 0.9rem;
+    width: 300px;
+    margin-bottom: 12px;
+}
+
+.slide2-card a{
+    color: #473bf0;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Slide2 Styles End */
+
+/* Slide3 Styles Start */
+
+/* Slide3 Styles End */
 
 /* Responsive Styles */
 
@@ -331,5 +388,40 @@ body {
   .slide1-txt{
     margin: auto;
     text-align: center;
+  }
+
+  #slide2{
+    grid-template-columns: 1fr;
+  }
+
+  #slide2 h2{
+    font-size: 24px;
+  }
+
+  #slide2 p{
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .slide2-flex{
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+
+  .slide2-flex img{
+    width: 100%;
+  }
+
+  .slide2-card h3{
+    margin-top: 20px;
+  }
+
+  .slide2-card p{
+    width: 100%;
+    margin-top: 12px;
+  }
+  .slide2-card a{
+    font-size: 14px;
+    padding-bottom: 12px;
   }
 }
