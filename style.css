@@ -267,6 +267,11 @@ body {
     margin-bottom: 12px;
 }
 
+.slide2-card button{
+    margin-bottom: 20px;
+    border: none;
+}
+
 .slide2-card a{
     color: #473bf0;
     text-decoration: none;
@@ -278,6 +283,89 @@ body {
 /* Slide2 Styles End */
 
 /* Slide3 Styles Start */
+
+#slide3{
+    background-color: #fff;
+    position: relative;
+    z-index: 0;
+}
+
+.slide3-flex{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 0 6rem 6rem;
+}
+
+
+.slide3-card{
+    position: absolute;
+    z-index: 0;
+    width: 20%;
+}
+
+
+.slide3-element{
+    position: relative;
+    z-index: 1;
+    height: 70vh;
+    margin-top: -40px;
+    margin-right: -300px;
+}
+
+.slide3-card{
+    width: 200px;
+}
+
+.slide3-text h2{
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.slide3-text p{
+    color: #161C2D;
+    font-size: 0.9rem;
+    width: 380px;
+    margin-bottom: 20px;
+}
+
+.slide3-flex-txt{
+    display: grid;
+    grid-template-columns: repeat(2, 0.4fr);
+}
+
+.slide3-flex-txt h6{
+    margin-bottom: 10px;
+    font-size: 0.7rem;
+}
+
+#slide4{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/Image/BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    position: relative;
+    z-index: 1;
+    margin-top: -240px;
+    text-align: center;
+}
+
+#slide4 img{
+    padding: 4rem 0 1.2rem 0;
+    opacity: 0.5;
+}
+
+#slide4 h2{
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#slide4 p{
+    color: #fff;
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
 
 /* Slide3 Styles End */
 
@@ -423,5 +511,66 @@ body {
   .slide2-card a{
     font-size: 14px;
     padding-bottom: 12px;
+  }
+
+  #slide3{
+    padding: 90px 20px;
+  }
+
+  .slide3-flex{
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .slide3-card{
+    position: relative;
+    width: 55%;
+    margin-bottom: 20px;
+  }
+
+  .slide3-element{
+    position: relative;
+    z-index: 1;
+    height: 50vh;
+    margin-top: -320px;
+    margin-right: 0;
+  }
+
+  .slide3-text h2{
+    width: 100%;
+    text-align: center;
+  }
+
+  .slide3-text p{
+    width: 100%;
+  }
+
+  .slide3-flex{
+    width: 100%;
+    margin-bottom: 70px;
+  }
+
+  .slide3-flex-txt{
+    grid-template-columns: 1fr;
+    margin-bottom: 60px;
+  }
+
+  #slide4{
+    text-align: center;
+    height: 40vh;
+  }
+
+  #slide4 img{
+    margin-top: 20px;
+    width: 50px;
+  }
+
+  #slide4 h2{
+    font-size: 1.5rem;
+  }
+
+  #slide4 p{
+    font-size: 14px;
+    width: 100%;
   }
 }
