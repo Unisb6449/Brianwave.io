@@ -64,7 +64,7 @@ body {
 /* Hero Styles Start */
 
 #hero{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("/Image/Bitmap.png");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("./Image/Bitmap.png");
     background-repeat: no-repeat;
     position: relative;
     left: 0;
@@ -343,7 +343,7 @@ body {
 /* Slide4 Styles Start */
 
 #slide4{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/Image/BG.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./Image/BG.png");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 50vh;
@@ -540,7 +540,7 @@ body {
   }
 
   #hero{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("/Image/Bitmap.png");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("./Image/Bitmap.png");
     background-repeat: no-repeat;
     min-height: 85vh;
   }
